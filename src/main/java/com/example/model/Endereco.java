@@ -1,10 +1,7 @@
-package com.manoelcampos.model;
+package com.example.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-/**
- * @author Manoel Campos da Silva Filho
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Endereco {
     private String logradouro;
